@@ -1,3 +1,9 @@
+html {
+	height: 100%;
+	width: 100%;
+}
 body {
-	background-color: pink;
+	background: linear-gradient(#F84592, #9429E4);
+	height: 100%;
+	width: 100%;
 }
