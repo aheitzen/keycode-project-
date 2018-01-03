@@ -2,7 +2,6 @@ var gradient = ['linear-gradient(#F84592, #9429E4)', 'linear-gradient(#14D2BC, #
 var toggle = 1;
 $(document).ready(function () {
 	$(document).keypress(function(e) {
-		console.log(e);
 		$('#numberHolderDiv').text(e.which);
 		$('#numberHolderDiv').css('background', gradient[toggle])
 		if (toggle < gradient.length -1) {
@@ -13,7 +12,5 @@ $(document).ready(function () {
 	});
 });
 
-
-//window, document, html
 
 
