@@ -3,6 +3,7 @@ html {
 	height: 100%;
 	width: 100%;
 }
+
 body {
 	background: linear-gradient(#F84592, #9429E4);
 	height: 100%;
@@ -11,6 +12,12 @@ body {
 	padding: 0;
 	
 
+}
+
+.dead-center {
+	margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0
 }
 
 div#numberHolderDiv {
@@ -24,11 +31,7 @@ div#numberHolderDiv {
 
 img {
 	width: 650px;
-	height: 370px;
-	/*top: 50%;
-	margin-top: -185px;
-	position: absolute;
-	margin-left: 370px;*/
+	margin-top: 150px;
 }
 
 p {
